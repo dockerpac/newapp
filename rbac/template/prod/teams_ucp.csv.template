@@ -1,0 +1,3 @@
+${ID_APPLICATION_DOCKER};observers;cn=observers,ou=Groups,ou=${ID_APPLICATION_DOCKER},ou=Prod,ou=Gotham,ou=Administration,dc=Groupe,dc=Test,dc=fr;observers;${ID_APPLICATION_DOCKER}
+${ID_APPLICATION_DOCKER};contributors;cn=contributors,ou=Groups,ou=${ID_APPLICATION_DOCKER},ou=Prod,ou=Gotham,ou=Administration,dc=Groupe,dc=Test,dc=fr;contributors;${ID_APPLICATION_DOCKER}
+${ID_APPLICATION_DOCKER};operators;cn=operators,ou=Groups,ou=${ID_APPLICATION_DOCKER},ou=Prod,ou=Gotham,ou=Administration,dc=Groupe,dc=Test,dc=fr;operators;${ID_APPLICATION_DOCKER}

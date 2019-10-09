@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: NetworkPolicy
+metadata:
+  name: allow-from-namespace-infra
+  namespace: ${NAMESPACE_NAME}
+spec:
+  podSelector: {}
+  ingress:
+  - from:
+    - namespaceSelector:
+        matchExpressions:
+        - key: app
+          operator: In
+          values:
+          - infra
+  policyTypes:
+  - Ingress

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: ns-resource-quota
+  namespace: ${NAMESPACE_NAME}
+spec:
+ hard:
+   pods: ${POD_LIMIT}
+   requests.cpu: ${REQUEST_CPU}
+   requests.memory: ${REQUEST_MEMORY}
+   limits.cpu: ${LIMIT_CPU}
+   limits.memory: ${LIMIT_MEMORY}

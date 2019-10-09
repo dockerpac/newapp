@@ -1,0 +1,4 @@
+#ORGANIZATION;TEAM;LDAP_GROUP;KUBERNETES_ROLE;KUBERNETES_NAMESPACE
+${ID_APPLICATION_DOCKER};observers-${ENV};cn=observers,ou=Groups,ou=${ID_APPLICATION_DOCKER},ou=${ENV},ou=NonProd,ou=Gotham,ou=Administration,dc=Groupe,dc=Test,dc=fr;observers;${ID_APPLICATION_DOCKER}-${ENV}
+${ID_APPLICATION_DOCKER};contributors-${ENV};cn=contributors,ou=Groups,ou=${ID_APPLICATION_DOCKER},ou=${ENV},ou=NonProd,ou=Gotham,ou=Administration,dc=Groupe,dc=Test,dc=fr;contributors;${ID_APPLICATION_DOCKER}-${ENV}
+${ID_APPLICATION_DOCKER};operators-${ENV};cn=operators,ou=Groups,ou=${ID_APPLICATION_DOCKER},ou=${ENV},ou=NonProd,ou=Gotham,ou=Administration,dc=Groupe,dc=Test,dc=fr;operators;${ID_APPLICATION_DOCKER}-${ENV}

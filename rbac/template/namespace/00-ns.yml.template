@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ${NAMESPACE_NAME}
+  labels:
+    cmdb: ${CMDB}
+    environment: ${ENVIRONMENT}

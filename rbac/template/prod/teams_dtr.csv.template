@@ -1,0 +1,2 @@
+#ORGANIZATION;TEAM;LDAP_GROUP;KUBERNETES_ROLE;KUBERNETES_NAMESPACE
+${ID_APPLICATION_DOCKER};contributors;cn=contributors,ou=Groups,ou=${ID_APPLICATION_DOCKER},ou=Prod,ou=Gotham,ou=Administration,dc=Groupe,dc=Test,dc=fr;PUSH;${ID_APPLICATION_DOCKER}
